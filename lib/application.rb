@@ -1,6 +1,6 @@
-require_relative "game"
+require_relative "game" # recherche le fichier dans le dossier 
 
-class Application
+class Application # penser à mettre la majuscule
     def perform
       game = Game.new
       game.status = :ongoing
