@@ -1,8 +1,8 @@
 # show.rb
 class Show
-    def display_board(board)
+    def display_board(board) #affiche le plateau
       puts "   1   2   3" # Affiche les numéros de colonnes
-      ("A".."C").each do |letter|  # Pour chaque ligne (A, B, C)
+      ("A".."C").each do |letter|  # Pour chaque ligne 
         row = "#{letter} " # Commence la ligne avec la lettre de la ligne
         row += "#{board.cases["#{letter}1"].value} | #{board.cases["#{letter}2"].value} | #{board.cases["#{letter}3"].value}"
         puts row # Affiche la ligne

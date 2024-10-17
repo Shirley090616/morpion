@@ -6,7 +6,9 @@
 
 # joueur1 = player1 ; joueur 2 = player 2   (@name)
 # plateau de jeu = game board (objet physique)
-# cases = cases (objet physique) ; A;B;C = horizontal ; 1;2;3 = vertical
+# cases = cases (objet physique) ; 1;2;3 = horizontal ; A;B;C = vertical
 # grille = grid ; case de la grille = grid cell (objet physique)
 # symbole = symbol X ou O (@symbol) (objet physique)
 # morpion = morpion
+# jouer chacun son tour et regarder si case n'est pas prise
+# si case prise = erreur
